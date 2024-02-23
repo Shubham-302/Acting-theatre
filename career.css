@@ -1,0 +1,71 @@
+body{
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    height: 100vh;
+	margin: 20px 0 50px;
+    padding: 0 35px;
+	background: #f0dddf;
+	
+	
+    
+}
+a{
+	color:#112d4e
+}
+h1 {
+	
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 500%;
+}
+.xd{
+	background-image: url("gg6.jpg");
+	border-image: 3px;
+}
+h2{
+	border-left: 6px solid red;
+  background-color: lightgrey;
+}
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	
+}
+button:hover{
+	background-color: rgb(8, 8, 8);
+}
+.overlay {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+}
+
+.yy{
+	justify-content: center;
+	border-radius: 10px;
+	padding-left: 5px;
+	background-color: rgb(118, 196, 196);
+}
+table,td{
+	padding-left: 5px;
+	padding-right: 10px;
+	margin: 5px;
+	
+}

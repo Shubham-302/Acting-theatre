@@ -1,0 +1,135 @@
+body{
+  background-image: url(https://www.livewires.org.in/images/banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+nav ul{
+  float: left;
+  margin-right: 40px;
+}
+nav a{
+  color: beige;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+a.active,a:hover{
+  border:1px solid white;
+  transition: .5s;
+}
+.heading{
+  font-family: 'Luxurious Script', cursive;
+ 
+  color:blanchedalmond;
+  font-size: 46;
+  text-align: center;
+
+}
+h1{
+  color: red;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 56;
+}
+h1:hover{
+  color:orange;
+}
+.info{
+  font-family: 'pacifico', cursive;
+  color:blanchedalmond;
+  font-size: 24;
+}
+textarea{background-color: grey;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+
+}
+.abc{
+  font-family: 'pacifico', cursive;
+  color:blanchedalmond;
+  font-size: 24;
+  
+  
+}
+.rating-wraper label{
+  display: inline-block;
+  width: 60px;
+  position: relative;
+  cursor: pointer;
+ 
+  
+}
+.rating-wraper{
+  direction: rtl;
+}
+.rating-wraper  input{
+  display: none;
+}
+.rating-wraper label:before{
+  content: "\2605";
+  position: absolute;
+  font-size: 40px;
+  display: inline-block;
+  top: 0;
+  left: 0px;
+  right: 1020px;
+  color: #cccccc;
+  
+}
+.rating-wraper label:after{
+  content: "\2605";
+  position: absolute;
+  font-size: 40px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  right: 1020px;
+  opacity: 0;
+  color: yellow;
+}
+.rating-wraper label:hover:after,
+.rating-wraper label:hover ~ label:after,
+.rating-wraper input:checked ~ label:after
+{
+  opacity: 1;
+}
+
+button {
+  
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 23px;
+  padding: 20px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #f7c2f9;
+}
+button:hover span {
+  padding-right: 25px;
+}
